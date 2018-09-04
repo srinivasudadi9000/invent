@@ -1,0 +1,48 @@
+{
+  "Message": [
+    {
+      "goal": "Tenth",
+      "code": "10",
+      "path": [
+        {
+          "classes": "Nursery",
+          "duration": "1 year"
+        },
+        {
+          "classes": "L.K.G",
+          "duration": "1 year"
+        },
+        {
+          "classes": "1st standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "2nd Standard",
+          "duration": "1 year"
+        }
+      ]
+    },
+    {
+      "goal": "Inter",
+      "code": "12",
+      "path": [
+        {
+          "classes": "Nursery",
+          "duration": "1 year"
+        },
+        {
+          "classes": "L.K.G",
+          "duration": "1 year"
+        },
+        {
+          "classes": "1st standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "2nd Standard",
+          "duration": "1 year"
+        }
+      ]
+    }
+  ]
+}

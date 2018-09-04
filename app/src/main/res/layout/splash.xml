@@ -7,10 +7,10 @@
     tools:context=".Splash">
 
     <LinearLayout
-        android:background="@color/colorPrimary"
         android:id="@+id/header_ll"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:background="@color/colorPrimary"
         android:orientation="horizontal"
         android:weightSum="1.8">
 

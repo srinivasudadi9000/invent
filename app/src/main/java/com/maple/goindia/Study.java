@@ -1,24 +1,35 @@
 package com.maple.goindia;
 
 public class Study {
-    String id,name;
-    Study(String id,String name){
-        this.id = id;this.name=name;
+    String goal, code, path;
+
+    Study(String goal, String code, String path) {
+        this.goal = goal;
+        this.code = code;
+        this.path = path;
     }
 
-    public String getId() {
-        return id;
+    public String getGoal() {
+        return goal;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setGoal(String goal) {
+        this.goal = goal;
     }
 
-    public String getName() {
-        return name;
+    public String getCode() {
+        return code;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
     }
 }

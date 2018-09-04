@@ -11,14 +11,14 @@ import java.util.ArrayList;
 
 public class StudyAdapterGraph extends RecyclerView.Adapter<StudyAdapterGraph.CheckIn> {
 
-    ArrayList<Study> messagings;
+    ArrayList<Graph_Path> graph_paths;
     int Rowlayout;
     Context context;
 
-    public StudyAdapterGraph(ArrayList<Study> messagings, int check_single, Context applicationContext) {
+    public StudyAdapterGraph(ArrayList<Graph_Path> graph_paths, int check_single, Context applicationContext) {
         this.context = applicationContext;
         this.Rowlayout = check_single;
-        this.messagings = messagings;
+        this.graph_paths = graph_paths;
     }
 
 
@@ -28,20 +28,23 @@ public class StudyAdapterGraph extends RecyclerView.Adapter<StudyAdapterGraph.Ch
         return new CheckIn(view);
     }
 
-     @Override
+    @Override
     public void onBindViewHolder(final CheckIn holder, int position) {
-        holder.study_tv.setText(messagings.get(position).getName());
+        holder.study_tv.setText(graph_paths.get(position).getClasses());
+        holder.duration_tv.setText(graph_paths.get(position).getDuration());
     }
 
     @Override
     public int getItemCount() {
-        return messagings.size();
+        return graph_paths.size();
     }
 
     public class CheckIn extends RecyclerView.ViewHolder {
-        TextView study_tv;
+        TextView study_tv, duration_tv;
+
         public CheckIn(View itemView) {
             super(itemView);
+            duration_tv = (TextView) itemView.findViewById(R.id.duration_tv);
             study_tv = (TextView) itemView.findViewById(R.id.study_hor_tv);
         }
     }
