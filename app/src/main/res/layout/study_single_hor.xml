@@ -4,43 +4,54 @@
     android:layout_height="250dp"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/study_hor_tv"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:layout_gravity="center"
-        android:background="@drawable/circle"
-        android:gravity="center"
-        android:text="Intermediate"
-        android:textColor="#ffffff"
-        android:textSize="18dp" />
+        android:background="@drawable/circle_brown"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/study_hor_tv"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Intermediate"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
 
     <LinearLayout
-        android:weightSum="2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:weightSum="2">
 
         <TextView
-            android:gravity="center"
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
             android:text="asdfas" />
 
         <View
-             android:layout_width="5dp"
+            android:layout_width="5dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:background="@color/colorAccent"
             android:foregroundGravity="center" />
+
         <TextView
             android:id="@+id/duration_tv"
-            android:gravity="center"
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
             android:text="asdfas" />
 
     </LinearLayout>

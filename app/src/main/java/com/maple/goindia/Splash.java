@@ -42,9 +42,9 @@ public class Splash extends Activity {
         try {
             JSONObject obj = new JSONObject(loadJSONFromAsset());
             JSONArray m_jArry = obj.getJSONArray("Message");
-            for (int i= 0;i<m_jArry.length();i++){
-                JSONObject res= m_jArry.getJSONObject(i);
-                messages.add(new Study(res.getString("goal").toString(),res.getString("code"),res.getString("path")));
+            for (int i = 0; i < m_jArry.length(); i++) {
+                JSONObject res = m_jArry.getJSONObject(i);
+                messages.add(new Study(res.getString("goal").toString(), res.getString("code"), res.getString("path")));
             }
             System.out.println("Resule " + m_jArry.toString());
         } catch (JSONException e) {

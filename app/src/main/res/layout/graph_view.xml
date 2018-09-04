@@ -5,10 +5,71 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.maple.goindia.GraphView">
-     <android.support.v7.widget.RecyclerView
+
+    <LinearLayout
+        android:background="#57585A"
+        android:id="@+id/header_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="1.7">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".7"
+            android:background="#57585A">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="Start"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/home_rll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"
+            android:background="@drawable/road">
+
+            <ImageView
+                android:id="@+id/home_img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="2dp"
+                android:src="@drawable/bike" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".7"
+            android:background="#57585A">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="Goal"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
         android:id="@+id/graph_rv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_ll">
 
     </android.support.v7.widget.RecyclerView>
 </RelativeLayout>
