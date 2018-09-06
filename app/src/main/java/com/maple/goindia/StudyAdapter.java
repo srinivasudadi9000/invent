@@ -37,9 +37,10 @@ public class StudyAdapter extends RecyclerView.Adapter<StudyAdapter.CheckIn> {
         holder.study_tv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                System.out.println("Path view "+messagings.get(position).getPath());
-                Intent graphview = new Intent(context,GraphView.class);
-                graphview.putExtra("path",messagings.get(position).getPath().toString());
+                System.out.println("Path view " + messagings.get(position).getPath());
+                Intent graphview = new Intent(context, GraphView.class);
+                graphview.putExtra("path", messagings.get(position).getPath().toString());
+                graphview.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(graphview);
             }
         });

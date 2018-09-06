@@ -1,4 +1,5 @@
 package com.maple.goindia;
+
 import android.animation.TimeAnimator;
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -9,6 +10,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 import java.util.Random;
+
 public class StarAnimationView extends View {
 
     /**
@@ -26,13 +28,21 @@ public class StarAnimationView extends View {
     private static final int COUNT = 32;
     private static final int SEED = 1337;
 
-    /** The minimum scale of a star */
+    /**
+     * The minimum scale of a star
+     */
     private static final float SCALE_MIN_PART = 0.45f;
-    /** How much of the scale that's based on randomness */
+    /**
+     * How much of the scale that's based on randomness
+     */
     private static final float SCALE_RANDOM_PART = 0.55f;
-    /** How much of the alpha that's based on the scale of the star */
+    /**
+     * How much of the alpha that's based on the scale of the star
+     */
     private static final float ALPHA_SCALE_PART = 0.5f;
-    /** How much of the alpha that's based on randomness */
+    /**
+     * How much of the alpha that's based on randomness
+     */
     private static final float ALPHA_RANDOM_PART = 0.5f;
 
     private final Star[] mStars = new Star[COUNT];
@@ -45,26 +55,32 @@ public class StarAnimationView extends View {
     private float mBaseSize;
     private long mCurrentPlayTime;
 
-    /** @see View#View(Context) */
+    /**
+     * @see View#View(Context)
+     */
     public StarAnimationView(Context context) {
         super(context);
         init();
     }
 
-    /** @see View#View(Context, AttributeSet) */
+    /**
+     * @see View#View(Context, AttributeSet)
+     */
     public StarAnimationView(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
-    /** @see View#View(Context, AttributeSet, int) */
+    /**
+     * @see View#View(Context, AttributeSet, int)
+     */
     public StarAnimationView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         init();
     }
 
     private void init() {
-        mDrawable = ContextCompat.getDrawable(getContext(), R.drawable.running);
+        mDrawable = ContextCompat.getDrawable(getContext(), R.drawable.toy);
         mBaseSize = Math.max(mDrawable.getIntrinsicWidth(), mDrawable.getIntrinsicHeight()) / 2f;
         mBaseSpeed = BASE_SPEED_DP_PER_S * getResources().getDisplayMetrics().density;
     }
@@ -174,6 +190,7 @@ public class StarAnimationView extends View {
 
     /**
      * Progress the animation by moving the stars based on the elapsed time
+     *
      * @param deltaMs time delta since the last frame, in millis
      */
     private void updateState(float deltaMs) {
@@ -197,8 +214,9 @@ public class StarAnimationView extends View {
 
     /**
      * Initialize the given star by randomizing it's position, scale and alpha
-     * @param star the star to initialize
-     * @param viewWidth the view width
+     *
+     * @param star       the star to initialize
+     * @param viewWidth  the view width
      * @param viewHeight the view height
      */
     private void initializeStar(Star star, int viewWidth, int viewHeight) {
