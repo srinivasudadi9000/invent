@@ -43,14 +43,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/header_ll"
-        android:orientation="vertical"
-        android:weightSum="2">
+        android:orientation="vertical">
 
         <android.support.v7.widget.RecyclerView
-            android:id="@+id/classes_rv"
+             android:id="@+id/classes_rv"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="match_parent">
 
         </android.support.v7.widget.RecyclerView>
 
@@ -58,7 +56,8 @@
             android:id="@+id/graph_rv"
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:visibility="gone">
 
         </android.support.v7.widget.RecyclerView>
 

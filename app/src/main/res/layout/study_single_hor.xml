@@ -37,16 +37,18 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="asdfas" />
+            android:text=" " />
 
         <View
             android:layout_width="5dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:background="@color/colorAccent"
+            android:background="@color/brown"
             android:foregroundGravity="center" />
 
         <TextView
+            android:textSize="18dp"
+            android:textColor="@color/white"
             android:id="@+id/duration_tv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

@@ -13,12 +13,48 @@
           "duration": "1 year"
         },
         {
-          "classes": "1st standard",
+          "classes": "U.K.G",
           "duration": "1 year"
         },
         {
-          "classes": "2nd Standard",
+          "classes": "1st \n standard",
           "duration": "1 year"
+        },
+        {
+          "classes": "2nd \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "3rd \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "4th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "5th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "6th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "7th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "8th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "9th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "10th \n Standard",
+          "duration": "Goal Reached"
         }
       ]
     },
@@ -35,12 +71,56 @@
           "duration": "1 year"
         },
         {
-          "classes": "1st standard",
+          "classes": "U.K.G",
           "duration": "1 year"
         },
         {
-          "classes": "2nd Standard",
+          "classes": "1st \n standard",
           "duration": "1 year"
+        },
+        {
+          "classes": "2nd \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "3rd \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "4th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "5th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "6th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "7th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "8th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "9th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "10th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "11th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "12th \n Standard",
+          "duration": "Goal Reached"
         }
       ]
     }
