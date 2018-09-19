@@ -54,7 +54,7 @@
         },
         {
           "classes": "10th \n Standard",
-          "duration": "Goal Reached"
+          "duration": "1 year"
         }
       ]
     },
@@ -120,9 +120,146 @@
         },
         {
           "classes": "12th \n Standard",
-          "duration": "Goal Reached"
+          "duration": "1 year"
         }
       ]
+    },
+    {
+      "goal": "Degree",
+      "code": "12",
+      "path": [
+        {
+          "classes": "Nursery",
+          "duration": "1 year"
+        },
+        {
+          "classes": "L.K.G",
+          "duration": "1 year"
+        },
+        {
+          "classes": "U.K.G",
+          "duration": "1 year"
+        },
+        {
+          "classes": "1st \n standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "2nd \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "3rd \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "4th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "5th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "6th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "7th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "8th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "9th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "10th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "11th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "12th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "Degree \n Standard",
+          "duration": "3 years"
+        }
+      ]
+    },
+    {
+      "goal": "Polytechnic \n Diploma",
+      "code": "12",
+      "path": [
+        {
+          "classes": "Nursery",
+          "duration": "1 year"
+        },
+        {
+          "classes": "L.K.G",
+          "duration": "1 year"
+        },
+        {
+          "classes": "U.K.G",
+          "duration": "1 year"
+        },
+        {
+          "classes": "1st \n standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "2nd \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "3rd \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "4th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "5th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "6th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "7th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "8th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "9th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "10th \n Standard",
+          "duration": "1 year"
+        },
+        {
+          "classes": "Polytechnic Diploma",
+          "duration": "3 year"
+        }
+
+      ]
     }
+
+
+
+
   ]
 }
